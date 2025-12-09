@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Drawing;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ public class Grapple : MonoBehaviour
     public LayerMask grappleLayer;
     public bool isGrappling;
     Vector3 point;
+    public Health playerHealth;
+    public int hpdamage = 1;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +31,8 @@ public class Grapple : MonoBehaviour
              point =Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(Physics2D.OverlapCircle(point,0.1f,grappleLayer))
             {
+                StartCoroutine(grappleDamage(hpdamage));
+
                 isGrappling = true;
                 lr.enabled = true;
                 lr.SetPosition(0,transform.position);
@@ -53,4 +58,17 @@ public class Grapple : MonoBehaviour
             lr.SetPosition(1, point);
         }
     }
+
+    private IEnumerator grappleDamage(int amount)
+    {
+        Debug.Log("Player Took Damage From Using Grapple");
+        playerHealth.takeDamage(amount);
+        yield return new WaitForSeconds(1f);
+    }
+
 }
+
+/*
+ *             Debug.Log("Player Took Damage");
+ *             playerHealth.takeDamage(damage);
+ */
