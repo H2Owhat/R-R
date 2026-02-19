@@ -37,7 +37,7 @@ public class Grapple : MonoBehaviour
 
                 isGrappling = true;
                 lr.enabled = true;
-                lr.SetPosition(0,transform.position);
+                lr.SetPosition(0,new Vector3(transform.position.x, transform.position.y + 4.43f, transform.position.z));
                 lr.SetPosition(1, point);
 
 
