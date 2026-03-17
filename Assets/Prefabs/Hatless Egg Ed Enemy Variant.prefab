@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5472951201486527339
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 530295337461936527, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: hatless
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439747964734365253, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2954608604963002679, guid: e07fc2f24412fa048b7b27676dfa422f, type: 3}
+    - target: {fileID: 3071393279563876415, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.34851
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.78859
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358755715527063448, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126305982266650233, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
+      propertyPath: m_Name
+      value: Hatless Egg Ed Enemy Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 456d6f6c8330e274d9967ee97d6eb009, type: 3}
