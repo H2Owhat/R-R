@@ -496,11 +496,11 @@ PrefabInstance:
       objectReference: {fileID: 933624735}
     - target: {fileID: 5012626518709789048, guid: 0e8b0559469c05444b7cb0dff3ca9f24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 195.44
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 5012626518709789048, guid: 0e8b0559469c05444b7cb0dff3ca9f24, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.6
+      value: 5.6
       objectReference: {fileID: 0}
     - target: {fileID: 5012626518709789048, guid: 0e8b0559469c05444b7cb0dff3ca9f24, type: 3}
       propertyPath: m_LocalPosition.z
@@ -583,11 +583,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4990602721257708078, guid: befca1f0c51c0044dae6e23af3c7b2f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 198.775
+      value: -4.961867
       objectReference: {fileID: 0}
     - target: {fileID: 4990602721257708078, guid: befca1f0c51c0044dae6e23af3c7b2f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.033284
+      value: 10.563351
       objectReference: {fileID: 0}
     - target: {fileID: 4990602721257708078, guid: befca1f0c51c0044dae6e23af3c7b2f8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -648,11 +648,11 @@ PrefabInstance:
       objectReference: {fileID: 1983496415}
     - target: {fileID: 8342726051544862839, guid: 66e1ed2bc264ce147a6be85181d0ba39, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 198.775
+      value: -6.664998
       objectReference: {fileID: 0}
     - target: {fileID: 8342726051544862839, guid: 66e1ed2bc264ce147a6be85181d0ba39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.033284
+      value: 10.5563755
       objectReference: {fileID: 0}
     - target: {fileID: 8342726051544862839, guid: 66e1ed2bc264ce147a6be85181d0ba39, type: 3}
       propertyPath: m_LocalPosition.z
@@ -792,6 +792,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 511204649075088267, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1983496409}
+    - target: {fileID: 850247826982473203, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1983496409}
     - target: {fileID: 1101801708824792401, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
       propertyPath: health
       value: 
@@ -840,6 +848,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5095255460930606601, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1983496409}
+    - target: {fileID: 5818231356038428420, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1983496409}
+    - target: {fileID: 5950248217457692186, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1983496409}
     - target: {fileID: 6629767919887242663, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
       propertyPath: m_Name
       value: ALL-Checkpoints
