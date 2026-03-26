@@ -25,6 +25,8 @@ public class Grapple : MonoBehaviour
     Vector3 displacementToCursor;
     Vector3 grappleDir;
     RaycastHit2D hit;
+    public GameObject cursor;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -46,7 +48,7 @@ public class Grapple : MonoBehaviour
     {
             lr.SetPosition(0, grappleOrigin.position);
         if(!isGrappling) {
-            mouseWorldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mouseWorldPoint = Camera.main.ScreenToWorldPoint(cursor.transform.position);
             displacementToCursor = mouseWorldPoint - grappleOrigin.position;
             grappleDir = displacementToCursor.normalized;
             hit = Physics2D.Raycast(grappleOrigin.position, grappleDir, Mathf.Min(displacementToCursor.magnitude, maxGrappleRange), grappleLayer);
