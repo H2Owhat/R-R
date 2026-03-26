@@ -11,7 +11,7 @@ Jamilyn Maderazo (Artist/Designer)
 Evan Ter Velde (Designer)  
 
 # Run Instructions
-Open the Threadful folder and click on the Threadful.exe executable.
+Open the ThreadfulDevBuild1 folder and click on the Threadful.exe executable. There is currently no quit option, so using Alt+F4 is required to exit the program. It is in extremely basic stages of development currently.
 
 # Credits
 Programming Aid: Connor Hadley  

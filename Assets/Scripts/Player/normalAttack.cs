@@ -1,5 +1,4 @@
 using UnityEngine;
-using static UnityEngine.InputSystem.InputAction;
 
 public class normalAttack : MonoBehaviour
 {
@@ -8,39 +7,20 @@ public class normalAttack : MonoBehaviour
     public attackTrigger aTrigger;
     
     // Update is called once per frame
-    //void Update()
-    //{
-    //    if(Input.GetButton("Attack") && !aTrigger.canHitCooldown)
-    //    {
-    //        Debug.Log("Attack Pressed");
-    //        //Animation
-    //        attacking = true;
-    //        GetComponent<Animator>().SetBool("isAttacking", attacking);
-            
-    //        //Turning on damage variable
-    //        violent = true;
-    //    }
-    //    if(Input.GetButtonUp("Attack"))
-    //    {
-    //        //Animation
-    //        attacking = false;
-    //        GetComponent<Animator>().SetBool("isAttacking", attacking);
-
-    //        //Turning off damage variable
-    //        violent = false;
-    //    }
-    //}
-
-    public void OnAttack(CallbackContext context) {
-        if(context.performed && !aTrigger.canHitCooldown) {
+    void Update()
+    {
+        if(Input.GetButton("Attack") && !aTrigger.canHitCooldown)
+        {
             Debug.Log("Attack Pressed");
             //Animation
             attacking = true;
             GetComponent<Animator>().SetBool("isAttacking", attacking);
-
+            
             //Turning on damage variable
             violent = true;
-        } else if(context.canceled){
+        }
+        if(Input.GetButtonUp("Attack"))
+        {
             //Animation
             attacking = false;
             GetComponent<Animator>().SetBool("isAttacking", attacking);
