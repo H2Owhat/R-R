@@ -520,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1924327519266998537, guid: 0e8b0559469c05444b7cb0dff3ca9f24, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000015259
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2419669938915322754, guid: 0e8b0559469c05444b7cb0dff3ca9f24, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
@@ -860,10 +860,6 @@ PrefabInstance:
       propertyPath: videoScreen
       value: 
       objectReference: {fileID: 1282523706}
-    - target: {fileID: 1581811236060602031, guid: f061fd5b8d289cb48813b92b900ec3f2, type: 3}
-      propertyPath: startGameScript
-      value: 
-      objectReference: {fileID: 3531668463735690299}
     - target: {fileID: 2625541769444642390, guid: f061fd5b8d289cb48813b92b900ec3f2, type: 3}
       propertyPath: m_Name
       value: Level1
@@ -872,10 +868,6 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1983496409}
-    - target: {fileID: 3956032715661435431, guid: f061fd5b8d289cb48813b92b900ec3f2, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4741868829319144723, guid: f061fd5b8d289cb48813b92b900ec3f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.38
@@ -916,35 +908,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5996974606246493971, guid: f061fd5b8d289cb48813b92b900ec3f2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 287.65
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6732749471311925581, guid: f061fd5b8d289cb48813b92b900ec3f2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3531668463735690299}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f061fd5b8d289cb48813b92b900ec3f2, type: 3}
---- !u!1 &3531668463735690298 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6732749471311925581, guid: f061fd5b8d289cb48813b92b900ec3f2, type: 3}
-  m_PrefabInstance: {fileID: 3531668463735690297}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3531668463735690299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3531668463735690298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 917b53733c9787d4da0e7aa807898212, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::startGameScript
 --- !u!1001 &6132895062564853995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -962,10 +930,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1983496409}
     - target: {fileID: 1053437693850475100, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
-      propertyPath: health
-      value: 
-      objectReference: {fileID: 1983496409}
-    - target: {fileID: 1101801708824792401, guid: 4b5ef772abce4a9428cfb8de6626004c, type: 3}
       propertyPath: health
       value: 
       objectReference: {fileID: 1983496409}
