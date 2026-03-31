@@ -1271,10 +1271,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3975619752195698431, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 755309907}
     - target: {fileID: 5732210701280021594, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
       propertyPath: m_Name
       value: Level 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6564611394598982356, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 755309907}
     - target: {fileID: 6879423716248393895, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
       propertyPath: health
       value: 
