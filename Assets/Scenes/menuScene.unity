@@ -319,7 +319,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 145714436}
         m_TargetAssemblyTypeName: CutscenePlayer, Assembly-CSharp
-        m_MethodName: play
+        m_MethodName: StartDemo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

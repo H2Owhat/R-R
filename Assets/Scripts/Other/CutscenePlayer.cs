@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 public class CutscenePlayer : MonoBehaviour
@@ -32,5 +33,10 @@ public class CutscenePlayer : MonoBehaviour
     {
         video.Stop();
         startGameScript.PlayGame();
+    }
+
+    public void StartDemo()
+    {
+        SceneManager.LoadSceneAsync(4);
     }
 }
