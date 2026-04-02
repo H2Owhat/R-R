@@ -1271,7 +1271,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3223026531413695422, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 755309907}
     - target: {fileID: 3975619752195698431, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 755309907}
+    - target: {fileID: 5569730371815796094, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
       propertyPath: health
       value: 
       objectReference: {fileID: 755309907}
@@ -1284,6 +1292,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 755309907}
     - target: {fileID: 6879423716248393895, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 755309907}
+    - target: {fileID: 7066114305174664837, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
       propertyPath: health
       value: 
       objectReference: {fileID: 755309907}
@@ -1307,6 +1319,10 @@ PrefabInstance:
       propertyPath: 'enemyList.Array.data[16]'
       value: 
       objectReference: {fileID: 554988335}
+    - target: {fileID: 8243492579233717096, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 755309907}
     - target: {fileID: 8656053629452225740, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
       propertyPath: health
       value: 
