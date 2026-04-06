@@ -7111,7 +7111,7 @@ GameObject:
   - component: {fileID: 209555718}
   - component: {fileID: 209555717}
   - component: {fileID: 209555716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PinkBlocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16071,7 +16071,7 @@ GameObject:
   - component: {fileID: 332501631}
   - component: {fileID: 332501630}
   - component: {fileID: 332501629}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GreenBlocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26068,7 +26068,7 @@ GameObject:
   - component: {fileID: 335658420}
   - component: {fileID: 335658419}
   - component: {fileID: 335658418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OrangeBlocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36181,7 +36181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 395466871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NonGrappable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47405,7 +47405,7 @@ GameObject:
   - component: {fileID: 645499815}
   - component: {fileID: 645499814}
   - component: {fileID: 645499813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LevelsNoColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86088,7 +86088,7 @@ GameObject:
   - component: {fileID: 1282015029}
   - component: {fileID: 1282015028}
   - component: {fileID: 1282015027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BlueBlocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104050,7 +104050,7 @@ GameObject:
   - component: {fileID: 1947522997}
   - component: {fileID: 1947522996}
   - component: {fileID: 1947522995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: YellowBlocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
