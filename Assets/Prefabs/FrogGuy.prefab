@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2985889669090679692}
   - component: {fileID: 8958782131806561449}
   - component: {fileID: 3728324737987064472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttackTriggerEnemy
   m_TagString: attackTrigger
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 4871559707052296268}
   - component: {fileID: 8963146258095915098}
   - component: {fileID: 8512624222559763200}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrogGuy
   m_TagString: Enemy
   m_Icon: {fileID: 0}

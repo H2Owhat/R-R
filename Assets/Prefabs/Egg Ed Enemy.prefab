@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 149443243404348261}
   - component: {fileID: 530295337461936527}
   - component: {fileID: 3071393279563876415}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Egg Ed Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -207,8 +207,6 @@ MonoBehaviour:
   Hopps: {fileID: 0}
   aTrigger: {fileID: 0}
   distanceBetween: 0
-  noTop: {fileID: 4577066195292871743, guid: b837ace280fe9ee4894923063fe7890e, type: 3}
-  yesTop: {fileID: 8520858042078530617, guid: f55917b1451c16949a1aacea9524f527, type: 3}
   hpNoTopLevel: 9
   hatless: 0
 --- !u!61 &3071393279563876415
@@ -269,7 +267,7 @@ GameObject:
   - component: {fileID: 4945287106074341555}
   - component: {fileID: 3601370802947372148}
   - component: {fileID: 6614517586590821265}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: AttackTriggerEnemy
   m_TagString: attackTrigger
   m_Icon: {fileID: 0}

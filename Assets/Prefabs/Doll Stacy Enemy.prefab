@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6344817799651109098}
   - component: {fileID: 5260436086064099605}
   - component: {fileID: 7156647674526363996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Doll Stacy Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -212,6 +212,8 @@ MonoBehaviour:
   isNoticeAnim: 0
   isSlashAnim: 0
   isNoSeeAnim: 0
+  seenRecently: 0
+  pauseMovement: 0
 --- !u!1 &4115797551519705534
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +226,7 @@ GameObject:
   - component: {fileID: 7249798901015260228}
   - component: {fileID: 3866070954907551374}
   - component: {fileID: 5768715558008255605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttackTriggerEnemy
   m_TagString: attackTrigger
   m_Icon: {fileID: 0}

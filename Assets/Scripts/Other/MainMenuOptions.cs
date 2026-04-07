@@ -22,7 +22,7 @@ public class MainMenuOptions : MonoBehaviour
     {
         optionsMenu.SetActive(false);
         paused = true;
-        Time.timeScale = 0f;
+        Time.timeScale = 1f;
 
     }
 
