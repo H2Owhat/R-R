@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(PlayerInputManager))]
 public class playerMovement : MonoBehaviour
@@ -33,6 +34,10 @@ public class playerMovement : MonoBehaviour
     private int hpGain = 1;
     [SerializeField] bool glideOn;
 
+    [Header("only for lvl 3")]
+    private bool SlipTerrain = false;  // Jams level 3 bool
+    [SerializeField] private GameObject SlipperyTerrain; // Jam added this for lvl 3
+
     [Header("Sounds")]
     [SerializeField] private AudioSource soundEffects;
     [SerializeField] private AudioClip walkSounds;
@@ -50,6 +55,7 @@ public class playerMovement : MonoBehaviour
         hp = GetComponent<Health>();
         soundEffects = GetComponent<AudioSource>();
         levelOne = SceneManager.GetSceneByBuildIndex(1);
+        SlipTerrain = SlipperyTerrain; // Jam added this for lvl 3
 
         glideOn = (SceneManager.GetActiveScene() != levelOne) ? true : false;
 
@@ -109,6 +115,11 @@ public class playerMovement : MonoBehaviour
     {
         if (pInput.JumpTriggered && isGrounded && !deathScreen.isDead)
         {
+            if (SlipTerrain && !isGrounded) // Jams level 3 code
+            {
+                return;
+            }
+
             rBody.linearVelocity = new Vector2(rBody.linearVelocity.x, 0);
             rBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             
@@ -120,8 +131,14 @@ public class playerMovement : MonoBehaviour
     private void HandleGlide()
     {
         if (pInput.GlideTriggered && isGrounded == false && rBody.linearVelocity.y <= -1f && !deathScreen.isDead && hp.health > 1) {
-            rBody.linearVelocityY = -2.4505f;
+            
             //Debug.Log("gliding");
+            if (SlipTerrain) // Jams level 3 code //2 AM note: need to figure out how to allow hopps to not glide ONLY when interacting with slide. (rn he can't glide at all)
+            {
+                return;
+            }
+
+            rBody.linearVelocityY = -2.4505f;
             pAnimator.SetBool("isGliding", true);
             if (!glideCheck) {
                 StartCoroutine(GlideHurt());

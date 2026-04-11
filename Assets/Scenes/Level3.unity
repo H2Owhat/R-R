@@ -639,6 +639,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 574146788267271802, guid: 0e8b0559469c05444b7cb0dff3ca9f24, type: 3}
+      propertyPath: SlipperyTerrain
+      value: 
+      objectReference: {fileID: 916317230}
     - target: {fileID: 1231859981295989950, guid: 0e8b0559469c05444b7cb0dff3ca9f24, type: 3}
       propertyPath: m_Name
       value: Hopps
@@ -764,6 +768,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf448b3ef7c1de847befc2d820486e14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!1 &916317230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8415383183632693828, guid: 45ddce41f502b9c46a5c85eb859f97d3, type: 3}
+  m_PrefabInstance: {fileID: 1919382895861315943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1355315647
 GameObject:
   m_ObjectHideFlags: 0
